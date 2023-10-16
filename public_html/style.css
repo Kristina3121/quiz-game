@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Prata&display=swap');
+
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Prata', serif;
+*/
+
+body {
+    font-family: 'Prata', serif;
+    background: mediumvioletred;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 950px;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 2.5em;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.options {
+    margin-bottom: 25px;
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+.option {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+    background-color: blueviolet;
+}
